@@ -9,4 +9,9 @@ public class UploadFileTest {
         String suffix = fileName.substring(fileName.lastIndexOf("."));
         System.out.println(suffix);
     }
+
+    @Test
+    public void test2(){
+        System.out.println("github");
+    }
 }
